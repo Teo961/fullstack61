@@ -7,6 +7,15 @@
    p{
     font-style: italic
 } 
+    a{
+        background-color: rgb(224, 238, 228);
+        margin: 10px;
+        border-radius: 20px;
+        padding: auto; 
+        margin-bottom: 10px;
+     
+    }
+
     h1{
     color: #003547;
     background-color: #005E54;
