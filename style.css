@@ -1,35 +1,47 @@
 
-    p{
+   *{
+    margin: 0;
+    padding: 0;
+   
+   }
+   p{
     font-style: italic
 } 
     h1{
-    color: rgb(102, 3, 3);
-    background-color: rgb(168, 220, 89);
+    color: #003547;
+    background-color: #005E54;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     border: solid 8px rgb(30, 2, 2);
-    background-color: rgb(218, 205, 215);
+    background-color: #C2BB00;
     padding-top: 10px;
     margin-bottom: 20px;
 
 }
     h2{
         color: black;
-    background-color: rgb(239, 235, 235);
+    background-color: #E1523D;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-bottom: 30px;
 }
+    h3{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    }
+
     tr{
-    background-color: rgb(218, 203, 185);
+    background-color: #ED8B16;
 }
     td{
-    background-color: rgb(143, 143, 157);
+    background-color: #005E54;
 }
     img{
         float: right;
     }
 
     .nuevo-contenido{
-        background-color: rgb(164, 235, 164);
+        background-color: #C2BB00;
 
     }
 
@@ -41,18 +53,15 @@
         
     }
     #main photo{
-        border: solid px red;
+        border: solid px #E1523D;
     }
 
     #IA{
-        background-color: rgb(55, 125, 145);
+        background-color: #005E54;
         
     }
     #electrolítico{
-        background-color: aliceblue;
+        background-color: #ED8B16;
     }
 
   
-
-    
-
