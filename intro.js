@@ -140,8 +140,20 @@ for(let i = 0; i< nombres.length; i++){
 
     while(persona.edad < 30){
     console.log("Para cumplir los treinta te faltan " + (30 - persona.edad) + " años");
-     persona.edad+=2;
-
+     persona.edad +=2;  // con ++ incrementa de a uno y con +=2, incrementa de a dos.
  }
+// ciclo Do While
 
+let opcion = 3;
+
+do{
+    console.log("Bienvenido a Mario Kart");
+    console.log("1. jugar");
+    console.log("2. configuración");
+    console.log("3. multijugador");
+    console.log("4. salir");
+
+    opcion ++;
+
+}   while(opcion != 4);
 
