@@ -18,7 +18,7 @@ let datos = [34, "Jorge", "Miguel", true, false, null];
 
 let persona = {
     nombre: "Jorge",
-    edad:   30,
+    edad:   25,
     sexo: "M",
     esMayorDeEdd: true,
     puntajeDataCredito: null,
@@ -156,4 +156,15 @@ do{
     opcion ++;
 
 }   while(opcion != 4);
+
+//  funciones
+
+function saludar(){
+    console.log("Te doy la bienvenida");
+    if(persona.edad >= 18){
+        console.log("puede jugar");
+    }
+}
+saludar();
+
 
