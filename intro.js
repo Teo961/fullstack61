@@ -11,14 +11,14 @@ const apellido = "Quintero";
 
 // array, arreglos, vectores, matrices
 
-let nombre = ["Teo", "Juan", "María", "Luisa"];
-let edades = [45, 65, 80, 60, 62];
+let nombres = ["Teo", "Juan", "María", "Luisa"];
+let edades = [15, 19, 28, 25, 12];
 let baloto = [45, 56, 23, 67];
 let datos = [34, "Jorge", "Miguel", true, false, null];
 
 let persona = {
     nombre: "Jorge",
-    edad:   25,
+    edad:   30,
     sexo: "M",
     esMayorDeEdd: true,
     puntajeDataCredito: null,
@@ -73,7 +73,9 @@ if(persona.cedula || persona.pasaporte){
     console.log("No uede salir del país"); 
 
 }
+    let día = "viernes";
 
+// método inusual
 // suich case
 
     /* let día = "lunes";
@@ -82,7 +84,8 @@ if(día == lunes){
 } if(dia == "martes"){
     console-log("hoy es martes");
 }*/
-switch(día){
+
+    switch(día){
     case "lunes":
     console.log("Hoy es lunes");
     break;
@@ -97,8 +100,8 @@ switch(día){
     case "jueves":
     console.log("Hoy es jueves");
     break;
-    case "virnes":
-    console.log("Hoy es viernes");
+    case "viernes":
+     console.log("Hoy es viernes, que maravilla");
     break;
     case "sábado":
     console.log("Hoy es sábado");
@@ -106,8 +109,39 @@ switch(día){
     case "domingo":
     console.log("Hoy es domingo");
     break;
+    default:
+    console.log("No es día válido");
+    break;
 
 }
+//operador ternario
 
+    if(persona.sexoexo == "M"){
+    console.log("Eres un hombre");
+
+}   else {
+    console.log("Eres mujer");
+
+}
+// similar al bloque anterior. Operador ternario.
+persona.sexo == "M" ? console.log("Eres hombre") : console.log("Eres mujer");
+
+// ciclo for
+
+for(let contador = 1; contador <= 10; contador ++){
+    console.log(contador + " uno, dos, tres, cuatro, sinco, seix, siete, ocho, nueve");
+
+}
+for(let i = 0; i< nombres.length; i++){
+    console.log(nombres[i]);
+    
+}
+ // while ---mientras
+
+    while(persona.edad < 30){
+    console.log("Para cumplir los treinta te faltan " + (30 - persona.edad) + " años");
+     persona.edad+=2;
+
+ }
 
 
