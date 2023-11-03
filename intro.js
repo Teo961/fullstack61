@@ -35,7 +35,10 @@ let persona = {
     semanasCotizadas: 100,
 
 }
-// verificar si la persona puede ingresar al evento
+
+function ejemplosCondicionales(){
+
+    // verificar si la persona puede ingresar al evento
 
 let MayoriaEdad = 18;
 
@@ -126,6 +129,11 @@ if(día == lunes){
 // similar al bloque anterior. Operador ternario.
 persona.sexo == "M" ? console.log("Eres hombre") : console.log("Eres mujer");
 
+
+}
+
+function ciclos(){
+    
 // ciclo for
 
 for(let contador = 1; contador <= 10; contador ++){
@@ -157,14 +165,20 @@ do{
 
 }   while(opcion != 4);
 
+
+}
+
 //  funciones
 
-function saludar(){
-    console.log("Te doy la bienvenida");
-    if(persona.edad >= 18){
-        console.log("puede jugar");
+    function saludar(){
+        console.log("Te doy la bienvenida");
+        if(persona.edad >= 18){
+            console.log("puede jugar");
+        }
     }
-}
-saludar();
+    saludar();
+    ejemplosCondicionales();
+    ciclos();
+
 
 
